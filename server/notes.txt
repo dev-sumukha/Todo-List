@@ -1,0 +1,9 @@
+// steps for adding the task from the particular user or logged in user
+// authenticate the user via middleware
+// create a newTodo object and save the task in it
+// and most important save it with the userId it will be used for tracking the user and task relationship
+
+// find the user by id
+// after getting the details from it 
+// push the tasks into the user list (array) which we have created in the schema
+// then save the state
